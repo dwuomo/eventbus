@@ -14,12 +14,9 @@
         }
     },
     "autoload-dev": {
-        "psr-4": {
-            "Dwuomo\\events\\Test": "test/"
-        }
+        "psr-4": {}
     },
     "require": {
-        "phpunit/phpunit": "^6.5",
         "psr/container": "^1.0"
     }
 }
