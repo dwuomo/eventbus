@@ -1,0 +1,25 @@
+{
+    "name": "dwuomo/eventbus",
+    "description": "Application events library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "dwuomo",
+            "email": "dwuomo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dwuomo\\events\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dwuomo\\events\\Test": "test/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^6.5",
+        "psr/container": "^1.0"
+    }
+}

@@ -1,0 +1,8 @@
+phpunit.xml
+build
+vendor
+coverage.clover.idea
+idea/
+.idea/*
+.Ds_Store
+/vendor/
